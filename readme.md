@@ -2,3 +2,4 @@
 
 使用AOP技术
 记录日志
+记录service接口在正常调用返回后以及抛出异常时的结果，采用@AfterReturning和@AfterThrowing，并打印出函数名称、函数参数、并说明发生的事件
